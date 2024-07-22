@@ -1,0 +1,431 @@
+body.nosotros {
+    nav {
+        width: 100%;
+    }
+
+    img {
+        vertical-align: middle;
+        width: 500px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 0%;
+    }
+
+    li a {
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .navbar-brand {
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .w-100 {
+        width: 100% !important;
+        height: 100%;
+    }
+
+    .max-height-300 {
+        max-height: 300px;
+    }
+
+    .btn-outline-success {
+        --bs-btn-color: black;
+        --bs-btn-border-color: black;
+    }
+
+    #carouselExampleIndicators {
+        margin-top: 4%;
+    }
+
+    .carousel-item {
+        border-radius: 15px;
+        position: relative;
+    }
+
+    .carousel-item img {
+        border-radius: 20px;
+    }
+
+    .image-container {
+        position: relative;
+    }
+
+    p {
+        font-size: 25px;
+        margin-top: 45px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        margin-top: 45px;
+    }
+
+    .carousel-item {
+        position: relative;
+    }
+
+    .btn-primera {
+        background-image: url(../img/layer.png);
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        border: none;
+        position: absolute;
+        width: 157.5px;
+        height: 360px;
+        top: 58%;
+        left: 42.5%;
+        transform: translate(-50%, -50%);
+        z-index: 999;
+        border-radius: 6%;
+        display: inline-block;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        overflow: hidden;
+        transition: transform 0.3s ease; 
+    }
+    
+    .btn-primera:hover {
+        transform: translate(-50%, -50%) scale(1.04); 
+        z-index: 2;
+        box-shadow: 0 0 50px rgb(255, 255, 255); 
+        background-color: rgba(255, 255, 255, 0.481);
+    }
+    .btn-primera-extra {
+        background-image: url(../img/yogurt.png);
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        border: none;
+        position: absolute;
+        width: 140px;
+        height: 318px;
+        top: 60.5%;
+        left: 57.5%;
+        transform: translate(-50%, -50%);
+        z-index: 999;
+        border-radius: 6%;
+        display: inline-block;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        overflow: hidden;
+        transition: transform 0.3s ease; 
+    }
+    
+    .btn-primera-extra:hover {
+        transform: translate(-50%, -50%) scale(1.04); 
+        z-index: 2;
+        box-shadow: 0 0 50px rgb(255, 255, 255); 
+        background-color: rgba(255, 255, 255, 0.481);
+    }
+
+    button{
+        background-color: transparent;
+    }
+
+    .hover-image {
+        position: absolute;
+        top: 48%;
+        left: 31%;
+        width: 300px;
+        height: 110px;
+        transform: translate(-50%, -50%);
+        z-index: 1000;
+    }
+    .hover-image-extra {
+        position: absolute;
+        top: 48%;
+        left: 67%;
+        width: 300px;
+        height: 110px;
+        transform: translate(-50%, -50%);
+        z-index: 1000;
+    }
+
+.btn-tercera {
+    background-image: url(../img/lecheNegra.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border: none;
+    position: absolute;
+    width: 180.2px;
+    height: 470px;
+    top: 52%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    border-radius: 6%;
+    display: inline-block;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s ease; 
+}
+
+.btn-tercera:hover {
+    transform: translate(-50%, -50%) scale(1.04); 
+    z-index: 2;
+    box-shadow: 0 0 50px rgb(255, 255, 255); 
+    background-color: rgba(255, 255, 255, 0.481);
+}
+
+.btn-tercera-extra {
+    background-image: url(../img/lecheAzul.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border: none;
+    position: absolute;
+    width: 205px;
+    height: 495px;
+    top: 51.8%;
+    left: 56.8%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    border-radius: 6%;
+    display: inline-block;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s ease; 
+}
+
+.btn-tercera-extra:hover {
+    transform: translate(-50%, -50%) scale(1.04); 
+    z-index: 2;
+    box-shadow: 0 0 50px rgb(255, 255, 255); 
+    background-color: rgba(255, 255, 255, 0.481);
+}
+
+.btn-tercera-extra-extra {
+    background-image: url(../img/lecheBlanca.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border: none;
+    position: absolute;
+    width: 205px;
+    height: 495.8px;
+    top: 52.5%;
+    left: 74.1%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    border-radius: 6%;
+    display: inline-block;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s ease; 
+}
+
+.btn-tercera-extra-extra:hover {
+    transform: translate(-50%, -50%) scale(1.04); 
+    z-index: 2;
+    box-shadow: 0 0 50px rgb(255, 255, 255); 
+    background-color: rgba(255, 255, 255, 0.481);
+}
+.hover-tercera {
+    position: absolute;
+    top: 67%;
+    left: 27%;
+    width: 290px;
+    height: 100px;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+.hover-tercera-extra {
+    position: absolute;
+    top: 67%;
+    left: 46.3%;
+    width: 290px;
+    height: 100px;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+.hover-tercera-extra-extra {
+    position: absolute;
+    top: 35%;
+    left: 85%;
+    width: 290px;
+    height: 100px;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+.btn-quinta {
+    background-image: url(../img/bio.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border: none;
+    position: absolute;
+    width: 90px;
+    height: 290px;
+    top: 63%;
+    left: 33.5%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    border-radius: 6%;
+    display: inline-block;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s ease; 
+}
+
+.btn-quinta:hover {
+    transform: translate(-50%, -50%) scale(1.04); 
+    z-index: 2;
+    box-shadow: 0 0 50px rgb(255, 255, 255); 
+    background-color: rgba(255, 255, 255, 0.481);
+}
+.btn-quinta-extra {
+    background-image: url(../img/lecheAmarilla.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border: none;
+    position: absolute;
+    width: 143px;
+    height: 390px;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    border-radius: 6%;
+    display: inline-block;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s ease; 
+}
+
+.btn-quinta-extra:hover {
+    transform: translate(-50%, -50%) scale(1.04); 
+    z-index: 2;
+    box-shadow: 0 0 50px rgb(255, 255, 255); 
+    background-color: rgba(255, 255, 255, 0.481);
+}
+.btn-quinta-extra-extra {
+    background-image: url(../img/lecheAzul.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border: none;
+    position: absolute;
+    width: 168px;
+    height: 405px;
+    top: 56%;
+    left: 67.2%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    border-radius: 6%;
+    display: inline-block;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s ease; 
+}
+
+.btn-quinta-extra-extra:hover {
+    transform: translate(-50%, -50%) scale(1.04); 
+    z-index: 2;
+    box-shadow: 0 0 50px rgb(255, 255, 255); 
+    background-color: rgba(255, 255, 255, 0.481);
+}
+.hover-quinta {
+    position: absolute;
+    top: 57%;
+    left: 27%;
+    width: 280px;
+    height: 90px;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+.hover-quinta-extra {
+    position: absolute;
+    top: 42%;
+    left: 41%;
+    width: 280px;
+    height: 90px;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+.hover-quinta-extra-extra {
+    position: absolute;
+    top: 42%;
+    left: 77%;
+    width: 280px;
+    height: 90px;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+.carousel-control-next {
+    width: 70px;
+    height: 70px;
+    background: url('../img/asset.png') no-repeat center center;
+    background-size: contain; 
+    border: none; 
+    top: 80%;
+    right: 8%;
+}
+
+.carousel-control-next-icon {
+    display: none; 
+}
+.carousel-control-prev {
+    width: 70px;
+    height: 70px;
+    background: url('../img/asset.png') no-repeat center center;
+    background-size: contain; 
+    border: none; 
+    top: 80%;
+    left: 8%;
+    transform: scaleX(-1);
+}
+
+.carousel-control-prev-icon {
+    display: none; 
+}
+}

@@ -1,0 +1,73 @@
+html,
+body.inicio {
+    body.inicio {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(../img/fondoPantallas.png);}
+        li {
+            a {
+                color: black;
+                text-decoration: none;
+                font-size: 18px;
+                margin-top: 20px;
+            }
+        }
+
+        .navbar-brand {
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+            margin-top: 20px;
+
+        }
+
+        nav {
+            width: 100%;
+        }
+
+        .btn-outline-success {
+            --bs-btn-color: black;
+            --bs-btn-border-color: black;
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .col {
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            color: white;
+            margin-top: 60px;
+        }
+
+        h1 {
+            font-size: 83px;
+            margin-bottom: 5%;
+            color: rgb(0, 82, 3);
+        }
+        .h1 {
+            margin-top: 0;
+            margin-bottom: .5rem;
+            font-weight: 500;
+            line-height: 1.2;
+            color: #198754;
+        }
+        p {
+            font-size: 35px;
+            margin-top: 45px;
+            color: #198754;
+        }
+    }
